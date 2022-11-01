@@ -4,18 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício HTML</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Portal Weazel</title>
 </head>
 <body>
-    <h2>Cadastros</h2>
-    <form>
-        <label for="seu-nome">Insira seu nome: </label> <input type="text" name="seu-nome" id="seu-nome" placeholder="nome"/> 
-        <hr />
-        <label for="seu-email">Insira seu email: </label> <input type="email" name="seu-email" id="seu-email" placeholder="e-mail" />
-        <hr />
-        <label for="sua-senha">Insira sua senha: </label> <input type="password" name="sua senha" id="sua senha" placeholder="senha" />
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
-    </form>
+    <main>
+        <header>
+        <section id="cabecalho">
+            <section id="logo-side">
+                <p id="logo">Weazel</p>
+            </section>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <nav id="menu-links">
+                <a href="#">Inicio</a>
+                <a href="#">Esportes</a>
+                <a href="#">Economia</a>
+                <a href="#">Entreterimento</a>
+                <a href="#">Tecnologia</a>
+            </nav>
+        </section>
+        </header>
+        <div id="sub-titulos">
+            <h2>Esportes</h2>
+        </div>
+        <section id="container">
+            <article class="noticia">
+                <h3>Hóquei: ultimos resultados</h3>
+                <img src="https://images.pexels.com/photos/221190/pexels-photo-221190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Ultimo treino da formula 1</h3>
+                <img src="https://images.pexels.com/photos/10807493/pexels-photo-10807493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Novos reforços no futebol americano</h3>
+                <img src="https://images.pexels.com/photos/163449/american-football-football-match-sport-team-163449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Ciclismo</h3>
+                <img src="https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Favorito na MotoGP</h3>
+                <img src="https://images.pexels.com/photos/34535/lorenzo-jorge-moto-gp-motorcycle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Mundial de Motocross</h3>
+                <img src="https://images.pexels.com/photos/168768/pexels-photo-168768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+        </section>
+        <div id="sub-titulos">
+            <h2>Economia</h2>
+        </div>
+        <section id="container">
+            <article class="noticia">
+                <h3>Cotação do bitcoin</h3>
+                <img src="https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article> 
+            <article class="noticia">
+                <h3>Novas ações na bolsa</h3>
+                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Proteja seu cartão</h3>
+                <img src="https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Dicas de como poupar mais</h3>
+                <img src="https://images.pexels.com/photos/3943727/pexels-photo-3943727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Cotação do ouro hoje, confira:</h3>
+                <img src="https://images.pexels.com/photos/342945/pexels-photo-342945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Cotação do dolar atualizada, confira:</h3>
+                <img src="https://images.pexels.com/photos/47344/dollar-currency-money-us-dollar-47344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+        </section>
+        <div id="sub-titulos">
+            <h2>Entreterimento</h2>
+        </div>
+        <section id="container">
+            <article class="noticia">
+                <h3>Show do Dj Cleiton Rasta reune mais de 300 mil pessoas:</h3>
+                <img src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Humberto Gessinger se apresenta em Blumenau essa semana</h3>
+                <img src="https://images.pexels.com/photos/1047442/pexels-photo-1047442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>5 restaurantes em Tokyo que você deve visitar um dia</h3>
+                <img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Confira os ultimos lançamentos nos cinemas mais proximos</h3>
+                <img src="https://images.pexels.com/photos/7513412/pexels-photo-7513412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Inauguração de nova livraria no centro da cidade</h3>
+                <img src="https://images.pexels.com/photos/626986/pexels-photo-626986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Numero de pub's vem aumentando, segundo pesquisa</h3>
+                <img src="https://images.pexels.com/photos/63633/bar-local-cong-ireland-63633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+        </section>
+        <div id="sub-titulos">
+            <h2>Tecnologia</h2>
+        </div>
+        <section id="container">
+            <article class="noticia">
+                <h3>Primeira inteligencia artificial criada pela humanidade alcança consciencia</h3>
+                <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Óculos VR que viaja pelas dimensões do espaço-tempo é novidade entre jovens</h3>
+                <img src="https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Primeira fazenda artificial do mundo operada por androids, confira:</h3>
+                <img src="https://images.pexels.com/photos/10269715/pexels-photo-10269715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Novo drone é capaz de fazer voo's suborbitais, assista:</h3>
+                <img src="https://images.pexels.com/photos/13807600/pexels-photo-13807600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Matéria escura já é usada como combustivel de foguetes</h3>
+                <img src="https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+            <article class="noticia">
+                <h3>Primeiro android com inteligencia artificial parte rumo a marte</h3>
+                <img src="https://images.pexels.com/photos/2159/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. <a href="#">Veja mais</a></p>
+            </article>
+        </section>
+    </main>
+    <section id="rodape">
+        <footer>
+            <div id="rodape-links">
+                <a href="#">Entre em contato</a>
+                <a href="#">Termos de uso</a>
+            </div>
+            <hr>
+            <p>&copy; 2022 Todos os direitos reservados</p>
+        </footer>
+    </section>
 </body>
 </html>
